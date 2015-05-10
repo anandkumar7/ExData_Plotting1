@@ -11,7 +11,6 @@ power_consumption_data$datetime <- dmy_hms(paste(power_consumption_data[,1],powe
 ##create the plot2
 ## This is a line plot where type = l
 
-##with(power_consumption_data, 
 plot(power_consumption_data$datetime,
 power_consumption_data$Global_active_power,
 type="l",
